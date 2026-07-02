@@ -1,0 +1,8 @@
+{
+    "accuracy": 73.2,
+    "best_parameters": {
+        "C": 1,
+        "kernel": "rbf"
+    },
+    "training_time_seconds": 21.6
+}
