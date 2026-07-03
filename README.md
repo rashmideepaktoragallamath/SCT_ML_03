@@ -95,10 +95,7 @@ Streamlit Deployment
 
 # 📷 Screenshots
 
-## 🌐 Web Application
-
-![Web Application](assets\app_home.png")
-
+![Web Application](assets/app_home.png)
 ---
 
 ## Confusion Matrix
