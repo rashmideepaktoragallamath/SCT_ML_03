@@ -95,6 +95,8 @@ Streamlit Deployment
 
 # 📷 Screenshots
 
+## 🌐 Web Application
+
 ![Web Application](assets/app_home.png)
 ---
 
