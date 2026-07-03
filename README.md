@@ -17,36 +17,27 @@ A Machine Learning project that classifies **Cats** and **Dogs** using:
 
 # 🌐 Live Demo
 
-**Try the application here**
-
-👉 **PASTE YOUR STREAMLIT LINK HERE**
-
+👉 **[Try the Live Demo](https://sctml03-mtcrlgrjwdtqyykhkfucoq.streamlit.app/)**
 ---
 
 # 📌 Project Overview
 
-This project uses traditional Machine Learning techniques for image classification.
-
-Instead of Deep Learning, it extracts HOG (Histogram of Oriented Gradients) features from images and trains an optimized Support Vector Machine classifier.
-
-The project also includes an interactive Streamlit web application where users can upload images and receive predictions instantly.
+This project demonstrates a complete Machine Learning pipeline for binary image classification using Support Vector Machines (SVM). Images are preprocessed and transformed into Histogram of Oriented Gradients (HOG) features before training an optimized SVM model using GridSearchCV. A Streamlit web application allows users to upload images and receive real-time predictions.
 
 ---
 
 # ✨ Features
 
-- Image Upload
-- Real-time Prediction
-- HOG Feature Extraction
-- SVM Classifier
-- GridSearchCV Hyperparameter Optimization
-- StandardScaler
-- Confusion Matrix
-- Classification Report
-- ROC Curve
-- Sample Predictions
-- Streamlit Web Interface
-
+- 📤 Upload cat or dog images
+- ⚡ Real-time image classification
+- 🧠 HOG feature extraction
+- 🤖 Support Vector Machine (SVM)
+- 🔍 Hyperparameter tuning with GridSearchCV
+- 📊 Confusion Matrix visualization
+- 📈 ROC Curve evaluation
+- 📝 Classification Report
+- 💾 Trained model persistence using Joblib
+- 🌐 Interactive Streamlit web application
 ---
 
 # 🧠 Machine Learning Pipeline
@@ -104,9 +95,9 @@ Streamlit Deployment
 
 # 📷 Screenshots
 
-## Web Application
+## 🌐 Web Application
 
-Add a screenshot here.
+![Web Application](assets/app_home.png)
 
 ---
 
@@ -173,27 +164,29 @@ dataset/
 
 # 📁 Project Structure
 
-```
-SCT_ML_03
+```text
+SCT_ML_03/
+│
+├── assets/
+│   └── app_home.png
+│
+├── models/
+│   ├── svm_model.pkl
+│   └── scaler.pkl
+│
+├── results/
+│   ├── confusion_matrix.png
+│   ├── sample_predictions.png
+│   ├── roc_curve.png
+│   ├── metrics.json
+│   └── classification_report.txt
 │
 ├── app.py
 ├── svm_cat_dog.py
 ├── requirements.txt
 ├── README.md
-│
-├── models
-│   ├── svm_model.pkl
-│   └── scaler.pkl
-│
-├── results
-│   ├── confusion_matrix.png
-│   ├── sample_predictions.png
-│   ├── roc_curve.png
-│   └── classification_report.txt
-│
-└── dataset
+└── .gitignore
 ```
-
 ---
 
 # ⚙ Installation
@@ -201,7 +194,7 @@ SCT_ML_03
 Clone Repository
 
 ```bash
-git clone YOUR_REPO_LINK
+git clone https://github.com/rashmideepaktoragallamath/SCT_ML_03.git
 ```
 
 Install dependencies
@@ -220,27 +213,25 @@ streamlit run app.py
 
 # 🎯 Future Improvements
 
-- CNN-based Classification
-- Confidence Score Display
-- Batch Image Prediction
-- Explainable AI (Grad-CAM)
-- Docker Deployment
-- Cloud Deployment using AWS
-
+- 🔹 Deep Learning implementation using CNNs
+- 🔹 Confidence score visualization
+- 🔹 Batch image prediction
+- 🔹 Explainable AI (Grad-CAM)
+- 🔹 Docker containerization
+- 🔹 Cloud deployment with AWS or Azure
+- 🔹 REST API integration using FastAPI
 ---
 
 # 👨‍💻 Developer
 
 **Rashmi Deepak Toragallamath**
 
-Machine Learning Enthusiast
+Machine Learning | Data Science | Computer Vision Enthusiast
 
 GitHub:
-PASTE YOUR GITHUB PROFILE
-
-LinkedIn:
-PASTE YOUR LINKEDIN PROFILE
+https://github.com/rashmideepaktoragallamath
 
 ---
+
 
 ⭐ If you found this project helpful, consider giving it a Star!
